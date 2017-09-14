@@ -9,9 +9,6 @@ corr <- function(directory, threshold = 0) {
   
   ## Return a numeric vector of correlations
   
-  #ids <- complete(directory)$nobs > threshold
-  
-  
   files <- list.files(directory)
   cr <- c()
   for(f in files) {
